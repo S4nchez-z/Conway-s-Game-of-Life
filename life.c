@@ -33,7 +33,7 @@ int count_neighbors(int n, int** map, int x, int y) {
     }
     return count;
 }
-
+ 
 void start_life(int n, int** map, int d) {
     int **new_map;
     FILE *output_file;
